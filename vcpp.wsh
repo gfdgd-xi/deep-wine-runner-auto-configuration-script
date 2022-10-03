@@ -1,0 +1,10 @@
+echo Power By Wine Runner ($VERSION)
+echo ($COPYRIGHT)
+echo ----------------------------------------------------------------
+installvcpp 0
+installvcpp 1
+installvcpp 3
+installvcpp 5
+installvcpp 7
+installvcpp 9
+info 提示 安装完成

@@ -1,0 +1,13 @@
+echo 方案来自 Crossover
+#info 提示 请在接下来的窗口选择\ Wine\ 的系统版本为\ Windows\ XP
+#winecfg
+#echo 安装所需库
+#bash pkexec apt install gstreamer1.0-plugins-good:i386 gstreamer1.0-plugins-ugly:i386
+echo 安装字体
+installsparkcorefont
+installvcpp 1
+installvcpp 2
+installmsxml 0
+installmsxml 2
+#installvcpp 10
+info 完成 配置完成，运行安装程序即可

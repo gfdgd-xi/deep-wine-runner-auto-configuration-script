@@ -1,0 +1,6 @@
+info 提示 请保证此容器为\ 32\ 位容器
+info 提示 请在下一个窗口选择系统版本为\ Windows
+winecfg
+installnet 24
+installnet 1
+installmsxml 3
