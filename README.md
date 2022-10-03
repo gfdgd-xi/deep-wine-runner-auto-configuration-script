@@ -86,7 +86,8 @@ gfdgd_xi@gfdgdxi-PC:~$
 | 环境变量 | 介绍 |
 | :- | :- |
 | `WINE` | 指定的 Wine，如`deepin-wine6-stable` |
-| `WINEPREFIX` | 指定的 Wine 容器，如`/home/gfdgd_xi/.wine` |
+| `WINEPREFIX` | 指定的 Wine 容器，如`/home/gfdgd_xi/.wine` |  
+**Tips：你可以手动指定`WINARCH`设定容器架构，如改为`win32`就会创建 32 位容器**  
 
 # 提交要求
 ## 必须遵守
@@ -121,7 +122,11 @@ rd /s /q C:\\
     ]
     ```
     更新后的`list.json`文件与`example.sh`需要在同一目录才可读取
-4. ……
+4. 提交仓库：https://gitee.com/gfdgd-xi/deep-wine-runner-auto-configuration-script   
+   Pr 过了后将会由开发者/仓库拥有者/仓库维护者合并到 Gitlink 仓库并上程序  
+   **注意：请勿直接 Pr 到 Gitlink 仓库！**  
+5. 代码提交优先使用 Bash 新引擎的脚本  
+6. ……
 
 ## 建议遵守
 1. 指定 dll 时建议用编号，或者dll命令+系统版本+位数（未实现）
