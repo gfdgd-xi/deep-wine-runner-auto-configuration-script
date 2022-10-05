@@ -12,6 +12,7 @@
 	["安装 Microsoft Office 2010 Visio Professional Plus", "office2010-visio.sh"],
 	["安装 Microsoft Office 2013 Professional Plus", "office2013.sh"],
 	["安装 Microsoft Office 2013 Visio Professional Plus", "office2013-visio.sh"],
+	["安装 Firefox 14.0.1", "firefox-14.sh"],
 	["安装 UltraISO", "ultraiso.sh"],
 	["安装所有VC运行库", "vcpp.wsh"],
 	["安装 Adobe Photoshop CC 2019 环境", "adobephotoshopcc2019.wsh"],
