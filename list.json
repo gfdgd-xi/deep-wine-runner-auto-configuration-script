@@ -12,6 +12,7 @@
 	["安装 Microsoft Office 2010 Visio Professional Plus", "office2010-visio.sh"],
 	["安装 Microsoft Office 2013 Professional Plus", "office2013.sh"],
 	["安装 Microsoft Office 2013 Visio Professional Plus", "office2013-visio.sh"],
+	["安装 Firefox 0.8", "firefox-0.8.sh"],
 	["安装 Firefox 14.0.1", "firefox-14.sh"],
 	["安装 Firefox 51.0", "firefox-51.sh"],
 	["安装 Firefox 60.0", "firefox-60.sh"],
