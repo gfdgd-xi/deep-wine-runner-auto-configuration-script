@@ -16,6 +16,7 @@
 	["安装 Firefox 51.0", "firefox-51.sh"],
 	["安装 Firefox 60.0", "firefox-60.sh"],
 	["安装 Firefox 71.0", "firefox-71.sh"],
+	["安装 Firefox 83.0", "firefox-93.sh"],
 	["安装 UltraISO", "ultraiso.sh"],
 	["安装所有VC运行库", "vcpp.wsh"],
 	["安装 Adobe Photoshop CC 2019 环境", "adobephotoshopcc2019.wsh"],
