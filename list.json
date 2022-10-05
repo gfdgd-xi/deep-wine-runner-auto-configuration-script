@@ -6,14 +6,16 @@
 	["安装 Scratch 2.0", "scratch2.0.sh"],
 	["安装 Internet Download Manager", "idm.sh"],
 	["安装 Microsoft Office 2007 Professional Plus", "office2007.sh"],
-	["安装 Microsoft Office 2007 OneNote Professional Plus", "office2007-onenote.sh"],
+	["安装 Microsoft Office 2007 OneNote Professional Plus", "office2007-oneote.sh"],
 	["安装 Microsoft Office 2007 Visio Professional Plus", "office2007-visio.sh"],
+	["安装 Microsoft Office 2010 Professional Plus", "office2010.sh"],
+	["安装 Microsoft Office 2010 Visio Professional Plus", "office2010-visio.sh"],
+	["安装 Microsoft Office 2013 Professional Plus", "office2013.sh"],
 	["安装所有VC运行库", "vcpp.wsh"],
-	["安装 Microsoft Office 2013 环境", "office2013.wsh"],
 	["安装 Adobe Photoshop CC 2019 环境", "adobephotoshopcc2019.wsh"],
 	["安装 Microsoft Office 2016 环境", "office2016.wsh"],
 	["安装 QQ 环境", "qq.wsh"],
 	["安装 微信 环境", "wechat.wsh"],
 	["安装 multitextclipboard 环境", "multitextclipboard.wsh"],
-	["安装 Internet Explorer 8 环境（只限 deepin wine2）", "internetexplorer 8.wsh"]
+	["安装 Internet Explorer 8 环境（只限 deepin wine2，建议直接在星火应用商店下载打包好的版本）", "internetexplorer 8.wsh"]
 ]
