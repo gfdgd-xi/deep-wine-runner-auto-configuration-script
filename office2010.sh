@@ -2,8 +2,6 @@
 # 用于判断是否为 bash 解释器
 # 旧版解释器直接提示不兼容
 if [[ 1 == 2 ]]; then
-    echo Power By ($MAKER)
-    echo ($COPYRIGHT)
     bash rm -rfv /tmp/office2010.exe
     download https://code.gitlink.org.cn/gfdgd_xi/microsoft-office-library/raw/branch/master/cn_office_professional_plus_2010_x86_515501.exe?gfdgd-xi /tmp office2010.exe
     bat /tmp/office2010.exe
