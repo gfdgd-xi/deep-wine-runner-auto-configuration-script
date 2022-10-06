@@ -8,6 +8,7 @@
 	["安装 Dev CPP", "devcpp.sh"],
 	["安装 7Zip 22.01", "7zip.sh"],
 	["安装 WinRAR 6.11 个人版", "winrar.sh"],
+	["安装 Inno Setup 6.0.3", "innosetup.sh"],
 	["安装 Microsoft Office 97 Professional Plus", "office97.sh"],
 	["安装 Microsoft Office 2003 Professional Plus", "office2003.sh"],
 	["安装 Microsoft Office 2003 Visio Professional Plus", "office2003-visio.sh"],
