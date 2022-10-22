@@ -42,5 +42,6 @@
 	["安装 QQ 环境", "qq.wsh"],
 	["安装 微信 环境", "wechat.wsh"],
 	["安装 multitextclipboard 环境", "multitextclipboard.wsh"],
-	["安装 Internet Explorer 8 环境（只限 deepin wine2，建议直接在星火应用商店下载打包好的版本）", "internetexplorer 8.wsh"]
+	["安装 Internet Explorer 8 环境（只限 deepin wine2，建议直接在星火应用商店下载打包好的版本）", "internetexplorer 8.wsh"],
+	["添加作者 apt 源", "gfdgd-xi-sources.sh"]
 ]
