@@ -1,0 +1,19 @@
+# “#”后面代表注释
+# 可以为了方便观看改为 bash 的高亮模式
+# 安装 dll
+installdll riched20.dll
+installdll riched32.dll
+# 安装字体
+installfont 0    # 后面参数填 Wine 运行器的字体安装器提示的编号
+# 安装字体（安装星火应用商店的微软核心字体）
+installsparkcorefont 
+# 安装 Mono
+installmono
+# 安装 gecko
+installgecko
+# 安装 vcpp
+installvcpp 0    # 后面参数填 Wine 运行器的 VCPP 安装器提示的编号
+# 安装 .net
+installnet   0    # 后面参数填 Wine 运行器的 VCPP 安装器提示的编号
+# 安装 MSXML
+installmsxml   0  # 后面参数填 Wine 运行器的 MSXML 安装器提示的编号
