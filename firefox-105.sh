@@ -9,7 +9,7 @@ fi
 echo Power By $MAKER
 echo $COPYRIGHT
 rm -rfv /tmp/firefox.exe
-bash reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
+bat reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
 download https://download-origin.cdn.mozilla.net/pub/firefox/releases/105.0.2/win32/zh-CN/Firefox%20Setup%20105.0.2.exe?gfdgd-xi /tmp firefox.exe
 bat /tmp/firefox.exe
 info 提示 安装完成！
