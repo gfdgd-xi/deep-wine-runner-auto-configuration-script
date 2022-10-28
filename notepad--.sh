@@ -10,5 +10,5 @@ if [[ 1 == 2 ]]; then
 fi
 rm /tmp/Notepad--v1.16.2-Installer.exe
 download https://gitee.com/cxasm/notepad--/releases/download/v1.16/Notepad--v1.16.2-Installer.exe /tmp Notepad--v1.16.2-Installer.exe
-bash /tmp/Notepad--v1.16.2-Installer.exe
+bat /tmp/Notepad--v1.16.2-Installer.exe
 info 提示 安装完成！
