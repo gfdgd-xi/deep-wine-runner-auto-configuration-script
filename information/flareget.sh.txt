@@ -1,0 +1,2 @@
+<p>FlareGet is a full featured, multi-threaded download manager and accelerator for Windows, Mac and Linux.</p>
+<p>官网：https://flareget.com/</p>
