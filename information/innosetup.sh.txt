@@ -1,0 +1,25 @@
+<p>Inno Setup 汉化版是一个免费易用好用的安装制作软件，小巧、简便、精美是其最大特点，支持pascal脚本，能快速制作出标准 Windows 2000 风格的安装界面，足以完成一般安装任务。该软件用 Delphi 编写，其官方网站同时也提供源程序免费下载。</p>
+<h2>软件特点</h2>
+<p>支持自 2006 年以来的每个 Windows 版本，包括：Windows 10、Windows 10 on ARM、Windows Server 2019、Windows Server 2016、Windows 8.1、Windows 8、Windows Server 2012、Windows 7、Windows Server 2008 R2、Windows Server 2008 和 Windows远景。 （不需要服务包。）</p>
+<p>广泛支持在 64 位版本的 Windows 上安装 64 位应用程序。支持 x64、ARM64 和 Itanium 架构。</p>
+<p>对管理和非管理安装的广泛支持。</p>
+<p>支持创建单个 EXE 来安装您的程序，以便于在线分发。还支持磁盘跨越。</p>
+<p>标准的 Windows 向导界面。</p>
+<p>可定制的设置类型，例如完整、最小、自定义。</p>
+<p>完整的卸载功能。</p>
+<p>安装文件：</p>
+<p>包括对“deflate”、bzip2 和 7-Zip LZMA/LZMA2 文件压缩的集成支持。安装程序能够比较文件版本信息、替换正在使用的文件、使用共享文件计数、注册 DLL/OCX 和类型库以及安装字体。</p>
+<p>在任何地方创建快捷方式，包括在开始菜单和桌面上。</p>
+<p>创建注册表和 .INI 条目。</p>
+<p>在安装之前、期间或之后运行其他程序。</p>
+<p>支持多语言安装，包括从右到左的语言支持。</p>
+<p>支持密码和加密安装。</p>
+<p>支持数字签名的安装和卸载，包括双重签名（SHA1 和 SHA256）。</p>
+<p>静默安装和卸载。</p>
+<p>Unicode 安装。</p>
+<p>用于高级编译时自定义的集成预处理器选项。</p>
+<p>用于高级运行时安装和卸载自定义的集成 Pascal 脚本引擎选项。</p>
+<p>完整的源代码可从 GitHub 获得。</p>
+<p>占用空间小：包含所有功能的开销仅约 1.5 mB。</p>
+<p>所有功能都有完整的文档记录。</p>
+<p>由 Microsoft Visual Studio Code 和 Embarcardero Delphi 使用。</p>
