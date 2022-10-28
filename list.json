@@ -3,8 +3,6 @@
 	["安装 360 安全卫士极速版(有点小问题)", "360safe-fast.sh"],
 	["安装 360 杀毒(有点小问题)", "360sd.sh"],
 	["安装 360 压缩", "360zip.sh"],
-	["安装 2345 浏览器", "2345browser.sh"],
-	["安装 2345 看图王", "2345pic.sh"],
 	["安装 Windows XP 计算器", "xpcalc.sh"],
 	["安装 Scratch 1.0", "scratch1.0.sh"],
 	["安装 Scratch 2.0", "scratch2.0.sh"],
@@ -13,6 +11,7 @@
 	["安装 7Zip 22.01", "7zip.sh"],
 	["安装 WinRAR 6.11 个人版", "winrar.sh"],
 	["安装 Inno Setup 6.0.3", "innosetup.sh"],
+	["安装 Notepad-- 1.16.2", "notepad--.sh"],
 	["安装 Microsoft Office 97 Professional Plus", "office97.sh"],
 	["安装 Microsoft Office 2003 Professional Plus", "office2003.sh"],
 	["安装 Microsoft Office 2003 Visio Professional Plus", "office2003-visio.sh"],
@@ -43,5 +42,7 @@
 	["安装 微信 环境", "wechat.wsh"],
 	["安装 multitextclipboard 环境", "multitextclipboard.wsh"],
 	["安装 Internet Explorer 8 环境（只限 deepin wine2，建议直接在星火应用商店下载打包好的版本）", "internetexplorer 8.wsh"],
+	["安装 2345 浏览器", "2345browser.sh"],
+	["安装 2345 看图王", "2345pic.sh"],
 	["添加作者 apt 源", "gfdgd-xi-sources.sh"]
 ]
