@@ -1,0 +1,59 @@
+<h1>前言</h1>
+
+<blockquote>
+<p>之前看到有个 HOS（鸿玩）系统，以及受到了这个帖子：<a href="https://bbs.deepin.org/post/244385" target="_blank">https://bbs.deepin.org/post/244385</a>&nbsp;和深度内测群的用户启发，便就把这个安装镜像做出来了</p>
+</blockquote>
+
+<h1>介绍</h1>
+
+<p>这个镜像是接着 Deepin Community Live CD 系列的（Deepin Community Live CD 简称为&nbsp;<code>DCLC</code>，Deepin Community Live CD 系统是什么？传送门：<a href="https://bbs.deepin.org/post/242933" target="_blank">https://bbs.deepin.org/post/242933</a>） ，自然此镜像会同时拥有原 Deepin Community Live CD 的功能和系统安装功能<br />
+也为了简化安装后的操作，会预装一些软件以及一些配置等等<br />
+<em><strong>注意：这个和鸿玩并不一样，不会修改任何有关 deepin 的系统信息，包括但不限于系统版本、系统 logo 等等</strong></em><br />
+<em><strong>且并不是 deepin 的下游发行版，只是一个定制的镜像</strong></em><br />
+<em><strong>Live CD 模式下用户默认密码：123456，root 密码：123456，安装到本地的不受此影响</strong></em><br />
+
+<h2>预装软件</h2>
+
+<ol>
+	<li>星火应用商店（联网会自动更新）</li>
+	<li>Wine 运行器（联网会自动更新）</li>
+	<li>QQ（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）</li>
+	<li>微信（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）</li>
+	<li>WPS Office（联网时自动安装）</li>
+	<li>合并 better dde（better dde 是什么？传送门：<a href="https://bbs.deepin.org/post/237746" target="_blank">https://bbs.deepin.org/post/237746</a>）</li>
+	<li>Todesk</li>
+	<li>TimeShift</li>
+	<li>udom 工具箱</li>
+	<li>deepin 全家桶</li>
+	<li>网易云音乐</li>
+	<li>UOS远程协助</li>
+	<li>rdp 远程桌面连接工具</li>
+	<li>搜狗输入法</li>
+	<li>deepin wine6 stable</li>
+	<li>星火应用商店应用源（只存在于 Live CD 环境下，将不会安装到本地）</li>
+	<li>pardus-boot-repair（只存在于 Live CD 环境下，将不会安装到本地）</li>
+	<li>Deepin Installer（系统安装程序，只存在于 Live CD 环境下，将不会安装到本地）</li>
+	<li>Deepin Community Live CD Mini 应用商店（只存在于 Live CD 环境下，将不会安装到本地）</li>
+	<li>gparted（只存在于 Live CD 环境下，将不会安装到本地）</li>
+	<li>Deepin 系统修复工具（只存在于 Live CD 环境下，将不会安装到本地）</li>
+	<li>Live CD 工具（只存在于 Live CD 环境下，将不会安装到本地）</li>
+</ol>
+
+
+<h1>可以不看的提示</h1>
+
+<ol>
+	<li>断网安装将不会安装 WPS、QQ、微信这三个体积很大的软件</li>
+	<li>可以在安装系统的时候听音乐（进入体验环境后打开网易云音乐播放音乐后安装系统即可）</li>
+	<li>体验模式可以当 Live CD 用</li>
+</ol>
+
+<h1>下载链接</h1>
+
+<p>鹤川云盘：<a href="https://pan.hechuanyun.xyz/s/Weua" target="_blank">https://pan.hechuanyun.xyz/s/Weua</a><br />
+123 云盘：<a href="https://www.123pan.com/s/pDSKVv-TspWv" target="_blank">https://www.123pan.com/s/pDSKVv-TspWv</a><br />
+迅雷云盘：<a href="https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs" target="_blank">https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs</a>&nbsp;提取码：5mgs</p>
+
+<p>百度网盘：链接:&nbsp;<a href="https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w" target="_blank">https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w</a>&nbsp;提取码: ejr7<br />
+<br />
+（主要是没会员，其它的也传不上去/分享不了）</p>
