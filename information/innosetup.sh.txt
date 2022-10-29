@@ -1,4 +1,4 @@
-<p>Inno Setup 汉化版是一个免费易用好用的安装制作软件，小巧、简便、精美是其最大特点，支持pascal脚本，能快速制作出标准 Windows 2000 风格的安装界面，足以完成一般安装任务。该软件用 Delphi 编写，其官方网站同时也提供源程序免费下载。</p>
+<p>Inno Setup 是一个免费易用好用的安装制作软件，小巧、简便、精美是其最大特点，支持pascal脚本，能快速制作出标准 Windows 2000 风格的安装界面，足以完成一般安装任务。该软件用 Delphi 编写，其官方网站同时也提供源程序免费下载。</p>
 <h2>软件特点</h2>
 <p>支持自 2006 年以来的每个 Windows 版本，包括：Windows 10、Windows 10 on ARM、Windows Server 2019、Windows Server 2016、Windows 8.1、Windows 8、Windows Server 2012、Windows 7、Windows Server 2008 R2、Windows Server 2008 和 Windows远景。 （不需要服务包。）</p>
 <p>广泛支持在 64 位版本的 Windows 上安装 64 位应用程序。支持 x64、ARM64 和 Itanium 架构。</p>
