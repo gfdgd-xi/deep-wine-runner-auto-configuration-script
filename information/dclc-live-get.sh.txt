@@ -1,0 +1,75 @@
+<p>20.7 发布了，就跟进一下</p>
+<h1>前言</h1>
+<p>deepin 发布的 Live CD 有点古老，功能有少许不全，在部分新电脑是无法启动，对 ventoy 兼容性不是很好，同时我也想自己定制一个属于自己的 Live CD，于是这个 Live CD 就出现了<br />
+    旧版 Live CD：<br />
+<h1>介绍</h1>
+<p>此 Live CD 基于 deepin 20.6 和原 Live CD 2.0 制作，安装部分维护工具（如果还有需要添加的就说），感谢&nbsp;<a href="https://bbs.deepin.org/post/166409"
+        target="_blank">https://bbs.deepin.org/post/166409</a>&nbsp;的作者&nbsp;<a
+        href="https://bbs.deepin.org/user/108842" target="_blank">@xchngg</a>的参考文档，本 Live CD 1.2.1 及以前版本使用该方案打包，测试
+    Ventoy 在 Legacy 和 UEFT 模式下均可运行此 Live CD，有常用驱动（网卡、显卡、声卡），理论上能运行 deepin 20.6 均可运行<br />
+    同时也借鉴了以下文章的内容：<br />
+    <a href="https://bbs.deepin.org/post/228930" target="_blank">https://bbs.deepin.org/post/228930</a>&nbsp;<a
+        href="https://bbs.deepin.org/user/278484">@deepin-superuser</a>
+</p>
+<p><a href="https://bbs.deepin.org/post/228568" target="_blank">https://bbs.deepin.org/post/228568</a>&nbsp;<a
+        href="https://bbs.deepin.org/user/160805">@木一明</a></p>
+<p><strong>full 用户密码（包括root密码）为：123456</strong><br />
+    <strong>tiny、mini、install root 密码未知</strong>
+</p>
+<h2>打包所带的程序</h2>
+<ol>
+    <li>远程协助</li>
+    <li>TestDisk</li>
+    <li>ukoapp</li>
+    <li>deepin 修复工具</li>
+    <li>CPU-G/CPU-X</li>
+    <li>GParted</li>
+    <li>字符映射表</li>
+    <li>Timeshift</li>
+    <li>lub</li>
+    <li>deepin 全家桶</li>
+    <li>todesk</li>
+    <li>Live CD 工具（会过期）</li>
+    <li>Pardus Boot Repair</li>
+    <li>PowerISO</li>
+    <li>一个小型的应用商店</li>
+    <li>深度备份还原工具</li>
+    <li>Grub Customizer</li>
+    <li>QQ For Linux</li>
+    <li>&hellip;&hellip;</li>
+</ol>
+<h1>更新内容</h1>
+<p>1、升级为基于 20.7，支持最新的 5.18.4-amd-desktop-hwe 内核<br />
+    2、修复星火源签名问题（且换成镜像源以提高安装速度）<br />
+    3、新增 15.11 版本<br />
+    <strong>截止发稿，full最新 1.4.0，install 最新 1.2.1，mini最新1.2.1-1，tiny最新1.2.0-1，install版暂未更新</strong>
+</p>
+<h1>5个版本区别</h1>
+<p>如果不想知道，无脑选 full 或 install 版本</p>
+<h2>tiny 版</h2>
+<p>（当然大小并不 tiny）只是在原版 Live CD 升级了内核，没有多的更新，也没有重新打包（所以壁纸也没有换），适用于应急或者空间、网速以及对功能要求不高且电脑配置较低以及语言非简体中文的用户<br />
+    目前只更新到 1.2.0 版本</p>
+<h2>mini 版</h2>
+<p>在 tiny 版本的基础上，更新并预装了部分原来没有的应用，目前 1.1.0-mini 新预装了 vim、timeshift，将 lights-firefox 升级为 firefox，适用于嫌弃 full 版本空间大以及 tiny
+    版本功能不全和电脑配置较低以及语言非简体中文的用户<br />
+</p>
+<h2>full 版</h2>
+<p>（和上面两个版本无关）基于 deepin 20.7 打包，功能较为完整、预装程序也比较多，但无法选择语言（即不能和 tiny、mini 版本一样启动选择语言），如果没有特殊的问题，建议使用这个版本<br />
+</p>
+<h2>install</h2>
+<p>基于 deepin 20.6 打包，功能非常完整，并未精简过多应用，支持直接运行系官方的安装向导，但无法选择语言（即不能和 tiny、mini 版本一样启动选择语言），以及安装出来的系统会和这个 Live CD
+    一样被修改过，如果没有特殊的问题，建议使用使用原版镜像进行系统安装<br />
+</p>
+<h1>15.11 版</h1>
+<p>基于 deepin 15.11 制作，满满的回忆<br />
+    比 full 版本的功能少一点，因为 Deepin 15.11 的底层有些老</p>
+<h1>下载链接</h1>
+<p>鹤川云盘：<a href="https://pan.hechuanyun.xyz/s/Weua" target="_blank">https://pan.hechuanyun.xyz/s/Weua</a></p>
+<p>百度网盘：链接:&nbsp;<a href="https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w"
+        target="_blank">https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w</a>&nbsp;提取码: ejr7<br /></p>
+<p>阿里云盘（要改后缀名，出问题无法正常下载）：<a href="https://www.aliyundrive.com/s/bfzZhFWCEdi"
+        target="_blank">https://www.aliyundrive.com/s/bfzZhFWCEdi</a><br />
+    和彩云：链接:&nbsp;<a href="https://caiyun.139.com/m/i?0r5CLA9upgtMT"
+        target="_blank">https://caiyun.139.com/m/i?0r5CLA9upgtMT</a>&nbsp;提取码:nEy6<br />
+    天翼云盘：<a href="https://cloud.189.cn/t/3IR3m2RrQ7je" target="_blank">https://cloud.189.cn/t/3IR3m2RrQ7je</a>，访问码:uzl1
+</p>

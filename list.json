@@ -47,5 +47,6 @@
 	["安装 2345 浏览器", "2345browser.sh"],
 	["安装 2345 看图王", "2345pic.sh"],
 	["获取 Deepin Community Live CD Install 1.5.0——一个定制的系统安装镜像", "dclc-install-get.sh"],
+	["获取 Deepin Community Live CD 1.4.0——基于20.7，新增Ghost", "dclc-live-get.sh"],
 	["添加作者 apt 源", "gfdgd-xi-sources.sh"]
 ]
