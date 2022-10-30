@@ -19,6 +19,7 @@
 	["安装 Microsoft Office 2003 Professional Plus", "office2003.sh"],
 	["安装 Microsoft Office 2003 Visio Professional Plus", "office2003-visio.sh"],
 	["安装 Microsoft Office 2007 Professional Plus", "office2007.sh"],
+	["安装 Microsoft Office SharePoint Designer 2007", "office2007-sharepointdesigner.sh"],
 	["安装 Microsoft Office 2007 OneNote Professional Plus", "office2007-oneote.sh"],
 	["安装 Microsoft Office 2007 Visio Professional Plus", "office2007-visio.sh"],
 	["安装 Microsoft Office 2010 Professional Plus", "office2010.sh"],
