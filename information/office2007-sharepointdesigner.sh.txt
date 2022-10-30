@@ -1,0 +1,1 @@
+<p>Microsoft OfficeSharePoint Designer 2007 是一种新产品，用于基于 SharePoint 技术创建和自定义 Microsoft SharePoint 网站并生成启用方蝶工作流的应用程序。Office SharePoint Designer 2007 提供了多种专业工具，利用这些工具，用户在 SharePoint 平台上无需编写代码即可生成交互解决方案、设计自定义 SharePoint 网站以及使用报告和托管权限维护网站性能。</p>
