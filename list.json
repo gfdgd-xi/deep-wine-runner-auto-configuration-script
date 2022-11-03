@@ -1,5 +1,6 @@
 [
 	["查看自动配置脚本语法编写帮助", "help.sh"],
+	["安装已经打包完成的 Miceosoft Windows Vista 画图（基于 Deepin Wine 6 Stable）", "mspaint-deb.sh"],
 	["安装 暴风影音 3.10.9.5", "暴风影音.sh"],
 	["安装已经打包完成的 Microsoft Office 2007 PowerPoint Professional Plus deb（基于 Deepin Wine 6 Stable）", "microsoft-office-2007-powerpoint-deb.sh"],
 	["安装已经打包完成的 Microsoft Office 2007 Excel Professional Plus deb（基于 Deepin Wine 6 Stable）", "microsoft-office-2007-excel-deb.sh"],

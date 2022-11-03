@@ -9,22 +9,22 @@ if [[ 1 == 2 ]]; then
     error 错误 此脚本无法运行，请将\ Wine\ 运行器升级到最新版本后重试
     exit
 fi
-#rm -rfv /tmp/office.deb
+#rm -rfv /tmp/mspaint.deb
 if [[ `arch` == "x86_64" ]]; then
     # X86 架构
-    download https://code.gitlink.org.cn/gfdgd_xi/gfdgd-xi-apt-mirrors/raw/branch/master/wine/spark.microsoft.excel/spark.microsoft.excel_1.1_i386.deb /tmp office.deb
+    download https://code.gitlink.org.cn/gfdgd_xi/gfdgd-xi-apt-mirrors/raw/branch/master/wine/com.microsoft.paint.deepin/com.microsoft.paint.deepin_1.0deepin1_i386.deb /tmp mspaint.deb
     echo download
 else
-    download https://code.gitlink.org.cn/gfdgd_xi/gfdgd-xi-apt-mirrors/raw/branch/master/wine/spark.microsoft.excel/spark.microsoft.excel_1.1_arm64.deb /tmp office.deb
+    download https://code.gitlink.org.cn/gfdgd_xi/gfdgd-xi-apt-mirrors/raw/branch/master/wine/com.microsoft.paint.deepin/com.microsoft.paint.deepin_1.0deepin1_arm64.deb /tmp mspaint.deb
 fi
-if [[ -f /tmp/office.deb ]]; then
+if [[ -f /tmp/mspaint.deb ]]; then
     # Nothing
     echo Download Done!
 else
     error 错误 文件下载失败！
     exit
 fi
-pkexec apt install /tmp/office.deb -y
+pkexec apt install /tmp/mspaint.deb -y
 if [[ $? == 0 ]]; then
     info 提示 安装成功！
 else
