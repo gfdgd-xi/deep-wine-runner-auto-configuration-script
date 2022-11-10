@@ -1,60 +1,237 @@
 <script>window.open("https://bbs.deepin.org/post/245584");</script>
-<h1>前言</h1>
-
-<blockquote>
-<p>之前看到有个 HOS（鸿玩）系统，以及受到了这个帖子：<a href="https://bbs.deepin.org/post/244385" target="_blank">https://bbs.deepin.org/post/244385</a>&nbsp;和深度内测群的用户启发，便就把这个安装镜像做出来了</p>
+<h1 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.75em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    前言
+</h1>
+<blockquote style="box-sizing: border-box; outline: 0px; margin: 0px 0px 16px; color: rgb(106, 115, 125); border-left: 0.25em solid rgb(234, 236, 239); padding: 0px 1em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; word-break: break-all;">
+        因为昨天测试时发现 Install 版有些问题，来不及重传，所以就没发布 Install 版了，现在修好重传了<br/>（虽然这个版本也是应该单独发帖子的）<br/><img title="joy" src="https://bbs.deepin.org/assets/image/raccoon/[joy].gif" class="emoji" alt="joy"/>
+    </p>
 </blockquote>
-
-<h1>介绍</h1>
-
-<p>这个镜像是接着 Deepin Community Live CD 系列的（Deepin Community Live CD 简称为&nbsp;<code>DCLC</code>，Deepin Community Live CD 系统是什么？传送门：<a href="https://bbs.deepin.org/post/242933" target="_blank">https://bbs.deepin.org/post/242933</a>） ，自然此镜像会同时拥有原 Deepin Community Live CD 的功能和系统安装功能<br />
-也为了简化安装后的操作，会预装一些软件以及一些配置等等<br />
-<em><strong>注意：这个和鸿玩并不一样，不会修改任何有关 deepin 的系统信息，包括但不限于系统版本、系统 logo 等等</strong></em><br />
-<em><strong>且并不是 deepin 的下游发行版，只是一个定制的镜像</strong></em><br />
-<em><strong>Live CD 模式下用户默认密码：123456，root 密码：123456，安装到本地的不受此影响</strong></em><br />
-
-<h2>预装软件</h2>
-
-<ol>
-	<li>星火应用商店（联网会自动更新）</li>
-	<li>Wine 运行器（联网会自动更新）</li>
-	<li>QQ（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）</li>
-	<li>微信（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）</li>
-	<li>WPS Office（联网时自动安装）</li>
-	<li>合并 better dde（better dde 是什么？传送门：<a href="https://bbs.deepin.org/post/237746" target="_blank">https://bbs.deepin.org/post/237746</a>）</li>
-	<li>Todesk</li>
-	<li>TimeShift</li>
-	<li>udom 工具箱</li>
-	<li>deepin 全家桶</li>
-	<li>网易云音乐</li>
-	<li>UOS远程协助</li>
-	<li>rdp 远程桌面连接工具</li>
-	<li>搜狗输入法</li>
-	<li>deepin wine6 stable</li>
-	<li>星火应用商店应用源（只存在于 Live CD 环境下，将不会安装到本地）</li>
-	<li>pardus-boot-repair（只存在于 Live CD 环境下，将不会安装到本地）</li>
-	<li>Deepin Installer（系统安装程序，只存在于 Live CD 环境下，将不会安装到本地）</li>
-	<li>Deepin Community Live CD Mini 应用商店（只存在于 Live CD 环境下，将不会安装到本地）</li>
-	<li>gparted（只存在于 Live CD 环境下，将不会安装到本地）</li>
-	<li>Deepin 系统修复工具（只存在于 Live CD 环境下，将不会安装到本地）</li>
-	<li>Live CD 工具（只存在于 Live CD 环境下，将不会安装到本地）</li>
+<h1 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.75em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    介绍
+</h1>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    这个镜像是接着 Deepin Community Live CD 系列的（Deepin Community Live CD 简称为&nbsp;<code style="box-sizing: border-box; outline: 0px; font-size: 13.6px; font-family: mononoki, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Noto Color Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols; background-color: rgba(27, 31, 35, 0.05); border-radius: 3px; padding: 0.2em 0.4em; margin: 0px; display: initial; word-break: break-word; background-size: 20px 20px; white-space: pre-wrap;">DCLC</code>，Deepin Community Live CD 系统是什么？传送门：<a href="https://bbs.deepin.org/post/242933" target="_blank" style="box-sizing: border-box; outline: 0px; touch-action: manipulation; color: rgb(24, 144, 255); text-decoration-line: none; background-color: transparent; cursor: pointer; transition: color 0.3s ease 0s;">https://bbs.deepin.org/post/242933</a>） ，自然此镜像会同时拥有原 Deepin Community Live CD 的功能和系统安装功能<br/>也为了简化安装后的操作，会预装一些软件以及一些配置等等<br/><em style="box-sizing: border-box; outline: 0px;"><span style="box-sizing: border-box; outline: 0px; font-weight: bolder;">注意：这个和鸿玩并不一样，不会修改任何有关 deepin 的系统信息，包括但不限于系统版本、系统 logo 等等</span></em><br/><em style="box-sizing: border-box; outline: 0px;"><span style="box-sizing: border-box; outline: 0px; font-weight: bolder;">且并不是 deepin 的下游发行版，只是一个定制的镜像</span></em><br/><em style="box-sizing: border-box; outline: 0px;"><span style="box-sizing: border-box; outline: 0px; font-weight: bolder;">Live CD 模式下用户默认密码：123456，root 密码：123456，安装到本地的不受此影响</span></em>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091017113542_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091017016380_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091016465862_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091016239147_image.png"/>
+</p>
+<h2 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.55em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    更新内容
+</h2>
+<ol style="box-sizing: border-box; outline: 0px; margin-bottom: 16px; padding-left: 2em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2">
+    <li>
+        <p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; word-break: break-all;">
+            新增 boot repair、Ghost
+        </p>
+    </li>
+    <li>
+        <p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all;">
+            有添加用户定制自定义脚本的小工具
+        </p>
+        <p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; word-break: break-all;">
+            <img alt="image.png" src="https://storage.deepin.org/thread/202211091020099456_image.png"/>
+        </p>
+    </li>
 </ol>
-
-
-<h1>可以不看的提示</h1>
-
-<ol>
-	<li>断网安装将不会安装 WPS、QQ、微信这三个体积很大的软件</li>
-	<li>可以在安装系统的时候听音乐（进入体验环境后打开网易云音乐播放音乐后安装系统即可）</li>
-	<li>体验模式可以当 Live CD 用</li>
+<h2 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.55em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    预装软件
+</h2>
+<ol style="box-sizing: border-box; outline: 0px; margin-bottom: 16px; padding-left: 2em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2">
+    <li>
+        <p>
+            星火应用商店（联网会自动更新）
+        </p>
+    </li>
+    <li>
+        <p>
+            Wine 运行器（联网会自动更新）
+        </p>
+    </li>
+    <li>
+        <p>
+            QQ（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）
+        </p>
+    </li>
+    <li>
+        <p>
+            微信（Wine）（会根据网络情况自动选择星火应用商店的版本或官方应用商店的版本）
+        </p>
+    </li>
+    <li>
+        <p>
+            WPS Office（联网时自动安装）
+        </p>
+    </li>
+    <li>
+        <p>
+            钉钉（联网时自动安装）
+        </p>
+    </li>
+    <li>
+        <p>
+            合并 better dde（better dde 是什么？传送门：<a href="https://bbs.deepin.org/post/237746" target="_blank" style="box-sizing: border-box; outline: 0px; touch-action: manipulation; color: rgb(24, 144, 255); text-decoration-line: none; background-color: transparent; cursor: pointer; transition: color 0.3s ease 0s;">https://bbs.deepin.org/post/237746</a>）
+        </p>
+    </li>
+    <li>
+        <p>
+            Todesk
+        </p>
+    </li>
+    <li>
+        <p>
+            TimeShift
+        </p>
+    </li>
+    <li>
+        <p>
+            udom 工具箱
+        </p>
+    </li>
+    <li>
+        <p>
+            deepin 全家桶
+        </p>
+    </li>
+    <li>
+        <p>
+            网易云音乐
+        </p>
+    </li>
+    <li>
+        <p>
+            UOS远程协助
+        </p>
+    </li>
+    <li>
+        <p>
+            rdp 远程桌面连接工具
+        </p>
+    </li>
+    <li>
+        <p>
+            搜狗输入法
+        </p>
+    </li>
+    <li>
+        <p>
+            deepin wine6 stable
+        </p>
+    </li>
+    <li>
+        <p>
+            星火应用商店应用源（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            boot repair（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            Ghost（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            pardus-boot-repair（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            Deepin Installer（系统安装程序，只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            Deepin Community Live CD Mini 应用商店（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            gparted（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            Deepin 系统修复工具（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
+    <li>
+        <p>
+            Live CD 工具（只存在于 Live CD 环境下，将不会安装到本地）
+        </p>
+    </li>
 </ol>
-
-<h1>下载链接</h1>
-
-<p>鹤川云盘：<a href="https://pan.hechuanyun.xyz/s/Weua" target="_blank">https://pan.hechuanyun.xyz/s/Weua</a><br />
-123 云盘：<a href="https://www.123pan.com/s/pDSKVv-TspWv" target="_blank">https://www.123pan.com/s/pDSKVv-TspWv</a><br />
-迅雷云盘：<a href="https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs" target="_blank">https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs</a>&nbsp;提取码：5mgs</p>
-
-<p>百度网盘：链接:&nbsp;<a href="https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w" target="_blank">https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w</a>&nbsp;提取码: ejr7<br />
-<br />
-（主要是没会员，其它的也传不上去/分享不了）</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202210231138041853_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202210231138268795_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202210231138481393_image.png"/>
+</p>
+<h3 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; line-height: 1.25; font-size: 1.38em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    实机图
+</h3>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <em style="box-sizing: border-box; outline: 0px;"><span style="box-sizing: border-box; outline: 0px; font-weight: bolder;">有些软件是我通过自定义脚本小工具装的，并非预装和自动联网安装</span></em>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091827505164_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091828109861_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091828186347_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202211091834151626_image.png"/>
+</p>
+<h1 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.75em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    可以不看的提示
+</h1>
+<ol style="box-sizing: border-box; outline: 0px; margin-bottom: 16px; padding-left: 2em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2">
+    <li>
+        <p>
+            断网安装将不会安装 WPS、QQ、微信这三个体积很大的软件
+        </p>
+    </li>
+    <li>
+        <p>
+            可以在安装系统的时候听音乐（进入体验环境后打开网易云音乐播放音乐后安装系统即可）
+        </p>
+    </li>
+    <li>
+        <p>
+            体验模式可以当 Live CD 用
+        </p>
+    </li>
+</ol>
+<h1 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.75em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
+    下载链接
+</h1>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    鹤川云盘：<a href="https://pan.hechuanyun.xyz/s/Weua" target="_blank" style="box-sizing: border-box; outline: 0px; touch-action: manipulation; color: rgb(24, 144, 255); text-decoration-line: none; background-color: transparent; cursor: pointer; transition: color 0.3s ease 0s;">https://pan.hechuanyun.xyz/s/Weua</a><br/>123 云盘：<a href="https://www.123pan.com/s/pDSKVv-yRpWv" target="_blank" style="box-sizing: border-box; outline: 0px; touch-action: manipulation; color: rgb(24, 144, 255); text-decoration-line: none; background-color: transparent; cursor: pointer; transition: color 0.3s ease 0s;">https://www.123pan.com/s/pDSKVv-yRpWv</a><br/>迅雷云盘：<a href="https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs" target="_blank" style="box-sizing: border-box; outline: 0px; touch-action: manipulation; color: rgb(24, 144, 255); text-decoration-line: none; background-color: transparent; cursor: pointer; transition: color 0.3s ease 0s;">https://pan.xunlei.com/s/VNF2FXAW-Ygci78DPS3b6bVxA1?pwd=5mgs</a>&nbsp;提取码：5mgs
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    <img alt="image.png" src="https://storage.deepin.org/thread/202210231313582420_image.png"/>
+</p>
+<p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; word-break: break-all; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
+    百度网盘：链接:&nbsp;<a href="https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w" target="_blank" style="box-sizing: border-box; outline: 0px; touch-action: manipulation; color: rgb(24, 144, 255); text-decoration-line: none; background-color: transparent; cursor: pointer; transition: color 0.3s ease 0s;">https://pan.baidu.com/s/1n5J8M8iqfI-kMbmHfR-x9w</a>&nbsp;提取码: ejr7<br/><img alt="image.png" src="https://storage.deepin.org/thread/202203201435562540_image.png"/>
+</p>
+<p>
+    <br/>
+</p>
