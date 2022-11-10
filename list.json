@@ -58,7 +58,7 @@
 	["运行运行器自带的 RegShot（64位）", "regshotx64.sh"],
 	["运行运行器自带的 BeCyIconGrabber", "becyicongrabber.sh"],
 	["运行默认 Wine 的 winver", "winver.sh"],
-	["获取 Deepin Community Live CD Install 1.5.0——一个定制的系统安装镜像", "dclc-install-get.sh"],
+	["获取 Deepin Community Live CD Install 1.6.0——更加定制化的的安装镜像", "dclc-install-get.sh"],
 	["获取 Deepin Community Live CD 1.4.0——基于20.7，新增Ghost", "dclc-live-get.sh"],
 	["移除 Wine 运行器", "purgewinerunner.sh"],
 	["添加作者 apt 源", "gfdgd-xi-sources.sh"],
