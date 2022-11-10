@@ -59,7 +59,7 @@
 	["运行运行器自带的 BeCyIconGrabber", "becyicongrabber.sh"],
 	["运行默认 Wine 的 winver", "winver.sh"],
 	["获取 Deepin Community Live CD Install 1.6.0——更加定制化的的安装镜像", "dclc-install-get.sh"],
-	["获取 Deepin Community Live CD 1.4.0——基于20.7，新增Ghost", "dclc-live-get.sh"],
+	["获取 Deepin Community Live CD 1.6.0——更新内核、基于20.7.1", "dclc-live-get.sh"],
 	["移除 Wine 运行器", "purgewinerunner.sh"],
 	["添加作者 apt 源", "gfdgd-xi-sources.sh"],
 	["移除曾经有盗版 Wine 运行器的 超级 Wine 和 exepro", "purgeexepro.sh"]
