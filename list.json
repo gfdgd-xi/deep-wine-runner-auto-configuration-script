@@ -1,5 +1,6 @@
 [
 	["查看自动配置脚本语法编写帮助", "help.sh"],
+	["安装 Bandizip 7.27.0.1", "Bandizip.sh"],
 	["安装 文件加密大师 16.50", "文件加密大师.sh"],
 	["安装已经打包完成的 Miceosoft Windows Vista 画图（基于 Deepin Wine 6 Stable）", "mspaint-deb.sh"],
 	["安装 暴风影音 3.10.9.5", "暴风影音.sh"],

@@ -1,0 +1,6 @@
+<p>Bandizip是一款可靠和快速的压缩软件，它支持WinZip、7-Zip和WinRAR以及其它压缩格式。它拥有非常快速的压缩和解压缩的算法，适用于多核心压缩、快速拖放、高速压缩等功能。</p>
+<p>官网：<a href="http://www.bandisoft.com/bandizip/">http://www.bandisoft.com/bandizip/</a></p>
+<p>1.修复了如果启用并行提取，则仅从存档中提取部分文件会创建您未提取的其他文件夹的错误</p>
+<p>2.其他修改</p>
+<p align="center"><img src="https://pc3.gtimg.com/softmgr/image/v3/01/7D22FE61FD37D241CCE5E9DFA9FC091D.png"></p>
+<p align="center"><img src="https://pc3.gtimg.com/softmgr/image/v3/02/8DE75EC3769FBE91C8D7753F8A9ADE3C.png"></p>
