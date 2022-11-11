@@ -1,3 +1,4 @@
+Visit: https://bbs.deepin.org/zh/post/245562
 <blockquote style="box-sizing: border-box; outline: 0px; margin: 0px 0px 16px; color: rgb(106, 115, 125); border-left: 0.25em solid rgb(234, 236, 239); padding: 0px 1em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: medium; white-space: normal; background-color: rgb(255, 255, 255);">
     <p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 0px; padding: 0px; word-break: break-all;">
         本来应该是连着 Install 版做 Live CD 全系更新的，但因为最后测试时发现有问题，所以就暂时不发布 Install 版了（现在发布了）<br/><span style="text-decoration:line-through;">我相信很快也就可以发布了</span>
