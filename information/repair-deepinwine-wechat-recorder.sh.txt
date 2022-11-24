@@ -1,0 +1,7 @@
+Websize: https://club.uniontech.com/#/detail?id=ec4e4a3093214a568ba5995bea03e919
+<br>
+<p>来源：https://club.uniontech.com/#/detail?id=ec4e4a3093214a568ba5995bea03e919</p>
+<p>在终端使用这个命令，终端的粘贴使用，ctrl alt v快捷键，或者右键粘贴</p>
+<code><pre>sed -i "$(sed -n -e '/gdiplus"="native/=' ~/.deepinwine/Deepin-WeChat/user.reg)d"  ~/.deepinwine/Deepin-WeChat/user.reg</pre></code>
+<p>user.reg文件中，"*gdiplus"="native"告诉wine 使用原生的(从win下复制出来) 的gdiplus.dll，去掉了这行就使用wine 提供的 gdiplus.dll.so。</p>
+<p>执行完这条命令后，退出微信重开即可，官方给出的临时方案，看后续应用商店的wine微信更新修复吧。</p>
