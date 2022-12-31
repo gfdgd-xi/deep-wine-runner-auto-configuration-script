@@ -6,10 +6,22 @@
 ##########################################################################################
 # 用于判断是否为 bash 解释器
 if [[ 1 == 2 ]]; then
-    # 保持对旧版本的兼容
-    bash rm "/tmp/com.wpspicture.spark_6.0.0spark1_i386.deb"
+    download "https://mirrors.sdu.edu.cn/spark-store-repository/store/image_graphics/com.wpspicture.spark/com.wpspicture.spark_6.0.0spark1_i386.deb" /tmp "com.wpspicture.spark_6.0.0spark1_i386.deb"
+    pkexec apt install "/tmp/com.wpspicture.spark_6.0.0spark1_i386.deb" -y
+    info 提示 安装成功！
+    exit
 fi
-rm "/tmp/com.wpspicture.spark_6.0.0spark1_i386.deb"
 download "https://mirrors.sdu.edu.cn/spark-store-repository/store/image_graphics/com.wpspicture.spark/com.wpspicture.spark_6.0.0spark1_i386.deb" /tmp "com.wpspicture.spark_6.0.0spark1_i386.deb"
-bat "/tmp/com.wpspicture.spark_6.0.0spark1_i386.deb"
-info 提示 安装完成！
+if [[ -f "/tmp/com.wpspicture.spark_6.0.0spark1_i386.deb" ]]; then
+    # Nothing
+    echo Download Done!
+else
+    error 错误 文件下载失败！
+    exit
+fi
+pkexec apt install "/tmp/com.wpspicture.spark_6.0.0spark1_i386.deb" -y
+if [[ $? == 0 ]]; then
+    info 提示 安装成功！
+else
+    error 错误 安装失败！
+fi
