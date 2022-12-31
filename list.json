@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 白眼 运行环境",
+        "vcredist10_x86.sh"
+    ],
+    [
         "安装 AxMath",
         "AxMath_Setup_Win.sh"
     ],
