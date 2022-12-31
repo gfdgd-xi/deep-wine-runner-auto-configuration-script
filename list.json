@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "体验 NTPWEdit 0.7 64位",
+        "ntpwedit64.sh"
+    ],
+    [
         "体验 NTPWEdit 0.7 32位",
         "ntpwedit.sh"
     ],
