@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 已经打包完成的 金山打字通 2008（基于 Deepin Wine2，适用于 x86_64 机器）",
+        "spark-typeeasy_1.0_i386.sh"
+    ],
+    [
         "安装 已经打包完成的 Microsoft Office Excel 2007（基于 Deepin Wine6 Stable，适用于 arm64 机器）",
         "spark.microsoft.excel_1.1_arm64.sh"
     ],
