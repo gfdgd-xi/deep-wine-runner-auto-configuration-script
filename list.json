@@ -1,68 +1,286 @@
 [
-	["查看自动配置脚本语法编写帮助", "help.sh"],
-	["修复深度应用商店微信截图黑屏问题", "repair-deepinwine-wechat-recorder.sh"],
-	["安装 Bandizip 7.27.0.1", "Bandizip.sh"],
-	["安装 文件加密大师 16.50", "文件加密大师.sh"],
-	["安装已经打包完成的 Miceosoft Windows Vista 画图（基于 Deepin Wine 6 Stable）", "mspaint-deb.sh"],
-	["安装 暴风影音 3.10.9.5", "暴风影音.sh"],
-	["安装已经打包完成的 Microsoft Office 2007 PowerPoint Professional Plus deb（基于 Deepin Wine 6 Stable）", "microsoft-office-2007-powerpoint-deb.sh"],
-	["安装已经打包完成的 Microsoft Office 2007 Excel Professional Plus deb（基于 Deepin Wine 6 Stable）", "microsoft-office-2007-excel-deb.sh"],
-	["安装 Everything 1.4.1.1022 32 位", "everything.sh"],
-	["安装 QQ飞车暴龙兽", "QQ飞车暴龙兽.sh"],
-	["安装 360 安全卫士极速版(需要Wine7)", "360safe-fast.sh"],
-	["安装 360 杀毒(需要Wine7)", "360sd.sh"],
-	["安装 360 压缩", "360zip.sh"],
-	["安装 Windows XP 计算器", "xpcalc.sh"],
-	["安装 Scratch 1.0", "scratch1.0.sh"],
-	["安装 Scratch 2.0", "scratch2.0.sh"],
-	["安装 Internet Download Manager", "idm.sh"],
-	["安装 Dev CPP", "devcpp.sh"],
-	["安装 7Zip 22.01", "7zip.sh"],
-	["安装 WinRAR 6.11 个人版", "winrar.sh"],
-	["安装 Inno Setup 6.0.3", "innosetup.sh"],
-	["安装 Notepad-- 1.16.2", "notepad--.sh"],
-	["安装 FlareGet", "flareget.sh"],
-	["安装 Microsoft Office 97 Professional Plus", "office97.sh"],
-	["安装 Microsoft Office 2003 Professional Plus", "office2003.sh"],
-	["安装 Microsoft Office 2003 Visio Professional Plus", "office2003-visio.sh"],
-	["安装 Microsoft Office 2007 Professional Plus", "office2007.sh"],
-	["安装 Microsoft Office SharePoint Designer 2007", "office2007-sharepointdesigner.sh"],
-	["安装 Microsoft Office 2007 OneNote Professional Plus", "office2007-oneote.sh"],
-	["安装 Microsoft Office 2007 Visio Professional Plus", "office2007-visio.sh"],
-	["安装 Microsoft Office 2010 Professional Plus", "office2010.sh"],
-	["安装 Microsoft Office 2010 Visio Professional Plus", "office2010-visio.sh"],
-	["安装 Microsoft Office 2013 Professional Plus", "office2013.sh"],
-	["安装 Microsoft Office 2013 Visio Professional Plus", "office2013-visio.sh"],
-	["安装 Microsoft Office 2016 Professional Plus", "office2016.sh"],
-	["安装 Microsoft Office 2016 Visio Professional Plus", "office2016-visio.sh"],
-	["安装 Microsoft Office 2019 Professional Plus", "office2019.sh"],
-	["安装 Firefox 0.8", "firefox-0.8.sh"],
-	["安装 Firefox 14.0.1", "firefox-14.sh"],
-	["安装 Firefox 51.0", "firefox-51.sh"],
-	["安装 Firefox 60.0", "firefox-60.sh"],
-	["安装 Firefox 71.0", "firefox-71.sh"],
-	["安装 Firefox 83.0", "firefox-83.sh"],
-	["安装 Firefox 91.0", "firefox-91.sh"],
-	["安装 Firefox 101.0", "firefox-101.sh"],
-	["安装 Firefox 105.0.2", "firefox-105.sh"],
-	["安装 UltraISO", "ultraiso.sh"],
-	["安装所有VC运行库", "vcpp.wsh"],
-	["安装 Adobe Photoshop CC 2019 环境", "adobephotoshopcc2019.wsh"],
-	["安装 Microsoft Office 2016 环境", "office2016.wsh"],
-	["安装 QQ 环境", "qq.wsh"],
-	["安装 微信 环境", "wechat.wsh"],
-	["安装 multitextclipboard 环境", "multitextclipboard.wsh"],
-	["安装 Internet Explorer 8 环境（只限 deepin wine2，建议直接在星火应用商店下载打包好的版本）", "internetexplorer 8.wsh"],
-	["安装 2345 浏览器", "2345browser.sh"],
-	["安装 2345 看图王", "2345pic.sh"],
-	["运行运行器自带的 Geek Uninstaller", "geekuninstaller.sh"],
-	["运行运行器自带的 RegShot（32位）", "regshotx86.sh"],
-	["运行运行器自带的 RegShot（64位）", "regshotx64.sh"],
-	["运行运行器自带的 BeCyIconGrabber", "becyicongrabber.sh"],
-	["运行默认 Wine 的 winver", "winver.sh"],
-	["获取 Deepin Community Live CD Install 1.6.0——更加定制化的的安装镜像", "dclc-install-get.sh"],
-	["获取 Deepin Community Live CD 1.6.0——更新内核、基于20.7.1", "dclc-live-get.sh"],
-	["移除 Wine 运行器", "purgewinerunner.sh"],
-	["添加作者 apt 源", "gfdgd-xi-sources.sh"],
-	["移除曾经有盗版 Wine 运行器的 超级 Wine 和 exepro", "purgeexepro.sh"]
+    [
+        "查看自动配置脚本语法编写帮助",
+        "help.sh"
+    ],
+    [
+        "安装 安装已经打包完成的 WPS Picture（基于 Deepin Wine6 Stable）",
+        "com.wpspicture.spark_6.0.0spark1_i386.sh"
+    ],
+    [
+        "安装 小熊猫Dev-C++ 6.7.5(GCC.9.2)",
+        "Dev-Cpp.6.7.5.GCC.9.2.Setup.sh"
+    ],
+    [
+        "安装 小熊猫Dev-C++ 6.7.5(MinGW-w64.X86_64.GCC.10.3)",
+        "Dev-Cpp.6.7.5.MinGW-w64.X86_64.GCC.10.3.Setup.sh"
+    ],
+    [
+        "安装 WPS 看图",
+        "Setup_6.0.0.1fix3_12012.00002019.sh"
+    ],
+    [
+        "安装 VCPP6运行库",
+        "VC6RedistSetup_deu.sh"
+    ],
+    [
+        "修复深度应用商店微信截图黑屏问题",
+        "repair-deepinwine-wechat-recorder.sh"
+    ],
+    [
+        "安装 Bandizip 7.27.0.1",
+        "Bandizip.sh"
+    ],
+    [
+        "安装 文件加密大师 16.50",
+        "文件加密大师.sh"
+    ],
+    [
+        "安装已经打包完成的 Miceosoft Windows Vista 画图（基于 Deepin Wine 6 Stable）",
+        "mspaint-deb.sh"
+    ],
+    [
+        "安装 暴风影音 3.10.9.5",
+        "暴风影音.sh"
+    ],
+    [
+        "安装已经打包完成的 Microsoft Office 2007 PowerPoint Professional Plus deb（基于 Deepin Wine 6 Stable）",
+        "microsoft-office-2007-powerpoint-deb.sh"
+    ],
+    [
+        "安装已经打包完成的 Microsoft Office 2007 Excel Professional Plus deb（基于 Deepin Wine 6 Stable）",
+        "microsoft-office-2007-excel-deb.sh"
+    ],
+    [
+        "安装 Everything 1.4.1.1022 32 位",
+        "everything.sh"
+    ],
+    [
+        "安装 QQ飞车暴龙兽",
+        "QQ飞车暴龙兽.sh"
+    ],
+    [
+        "安装 360 安全卫士极速版(需要Wine7)",
+        "360safe-fast.sh"
+    ],
+    [
+        "安装 360 杀毒(需要Wine7)",
+        "360sd.sh"
+    ],
+    [
+        "安装 360 压缩",
+        "360zip.sh"
+    ],
+    [
+        "安装 Windows XP 计算器",
+        "xpcalc.sh"
+    ],
+    [
+        "安装 Scratch 1.0",
+        "scratch1.0.sh"
+    ],
+    [
+        "安装 Scratch 2.0",
+        "scratch2.0.sh"
+    ],
+    [
+        "安装 Internet Download Manager",
+        "idm.sh"
+    ],
+    [
+        "安装 Dev CPP",
+        "devcpp.sh"
+    ],
+    [
+        "安装 7Zip 22.01",
+        "7zip.sh"
+    ],
+    [
+        "安装 WinRAR 6.11 个人版",
+        "winrar.sh"
+    ],
+    [
+        "安装 Inno Setup 6.0.3",
+        "innosetup.sh"
+    ],
+    [
+        "安装 Notepad-- 1.16.2",
+        "notepad--.sh"
+    ],
+    [
+        "安装 FlareGet",
+        "flareget.sh"
+    ],
+    [
+        "安装 Microsoft Office 97 Professional Plus",
+        "office97.sh"
+    ],
+    [
+        "安装 Microsoft Office 2003 Professional Plus",
+        "office2003.sh"
+    ],
+    [
+        "安装 Microsoft Office 2003 Visio Professional Plus",
+        "office2003-visio.sh"
+    ],
+    [
+        "安装 Microsoft Office 2007 Professional Plus",
+        "office2007.sh"
+    ],
+    [
+        "安装 Microsoft Office SharePoint Designer 2007",
+        "office2007-sharepointdesigner.sh"
+    ],
+    [
+        "安装 Microsoft Office 2007 OneNote Professional Plus",
+        "office2007-oneote.sh"
+    ],
+    [
+        "安装 Microsoft Office 2007 Visio Professional Plus",
+        "office2007-visio.sh"
+    ],
+    [
+        "安装 Microsoft Office 2010 Professional Plus",
+        "office2010.sh"
+    ],
+    [
+        "安装 Microsoft Office 2010 Visio Professional Plus",
+        "office2010-visio.sh"
+    ],
+    [
+        "安装 Microsoft Office 2013 Professional Plus",
+        "office2013.sh"
+    ],
+    [
+        "安装 Microsoft Office 2013 Visio Professional Plus",
+        "office2013-visio.sh"
+    ],
+    [
+        "安装 Microsoft Office 2016 Professional Plus",
+        "office2016.sh"
+    ],
+    [
+        "安装 Microsoft Office 2016 Visio Professional Plus",
+        "office2016-visio.sh"
+    ],
+    [
+        "安装 Microsoft Office 2019 Professional Plus",
+        "office2019.sh"
+    ],
+    [
+        "安装 Firefox 0.8",
+        "firefox-0.8.sh"
+    ],
+    [
+        "安装 Firefox 14.0.1",
+        "firefox-14.sh"
+    ],
+    [
+        "安装 Firefox 51.0",
+        "firefox-51.sh"
+    ],
+    [
+        "安装 Firefox 60.0",
+        "firefox-60.sh"
+    ],
+    [
+        "安装 Firefox 71.0",
+        "firefox-71.sh"
+    ],
+    [
+        "安装 Firefox 83.0",
+        "firefox-83.sh"
+    ],
+    [
+        "安装 Firefox 91.0",
+        "firefox-91.sh"
+    ],
+    [
+        "安装 Firefox 101.0",
+        "firefox-101.sh"
+    ],
+    [
+        "安装 Firefox 105.0.2",
+        "firefox-105.sh"
+    ],
+    [
+        "安装 UltraISO",
+        "ultraiso.sh"
+    ],
+    [
+        "安装所有VC运行库",
+        "vcpp.wsh"
+    ],
+    [
+        "安装 Adobe Photoshop CC 2019 环境",
+        "adobephotoshopcc2019.wsh"
+    ],
+    [
+        "安装 Microsoft Office 2016 环境",
+        "office2016.wsh"
+    ],
+    [
+        "安装 QQ 环境",
+        "qq.wsh"
+    ],
+    [
+        "安装 微信 环境",
+        "wechat.wsh"
+    ],
+    [
+        "安装 multitextclipboard 环境",
+        "multitextclipboard.wsh"
+    ],
+    [
+        "安装 Internet Explorer 8 环境（只限 deepin wine2，建议直接在星火应用商店下载打包好的版本）",
+        "internetexplorer 8.wsh"
+    ],
+    [
+        "安装 2345 浏览器",
+        "2345browser.sh"
+    ],
+    [
+        "安装 2345 看图王",
+        "2345pic.sh"
+    ],
+    [
+        "运行运行器自带的 Geek Uninstaller",
+        "geekuninstaller.sh"
+    ],
+    [
+        "运行运行器自带的 RegShot（32位）",
+        "regshotx86.sh"
+    ],
+    [
+        "运行运行器自带的 RegShot（64位）",
+        "regshotx64.sh"
+    ],
+    [
+        "运行运行器自带的 BeCyIconGrabber",
+        "becyicongrabber.sh"
+    ],
+    [
+        "运行默认 Wine 的 winver",
+        "winver.sh"
+    ],
+    [
+        "获取 Deepin Community Live CD Install 1.6.0——更加定制化的的安装镜像",
+        "dclc-install-get.sh"
+    ],
+    [
+        "获取 Deepin Community Live CD 1.6.0——更新内核、基于20.7.1",
+        "dclc-live-get.sh"
+    ],
+    [
+        "移除 Wine 运行器",
+        "purgewinerunner.sh"
+    ],
+    [
+        "添加作者 apt 源",
+        "gfdgd-xi-sources.sh"
+    ],
+    [
+        "移除曾经有盗版 Wine 运行器的 超级 Wine 和 exepro",
+        "purgeexepro.sh"
+    ]
 ]
