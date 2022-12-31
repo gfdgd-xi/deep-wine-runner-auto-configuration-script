@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Winamp 5.666",
+        "winamp5666_full_all_redux.sh"
+    ],
+    [
         "安装 千千静听5.0.1",
         "ttpsetup_501.sh"
     ],
