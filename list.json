@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 安装已经打包完成的 白眼（基于 Deepin Wine6 Stable）",
+        "org.epcdiy.byakugan_2.5.1.0_i386.sh"
+    ],
+    [
         "安装 安装已经打包完成的 PhotoZoom（基于 Deepin Wine6 Stable）",
         "spark-photozoom_1.1_i386.sh"
     ],
