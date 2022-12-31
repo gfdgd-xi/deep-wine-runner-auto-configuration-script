@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 安装已经打包完成的 PhotoZoom（基于 Deepin Wine6 Stable）",
+        "spark-photozoom_1.1_i386.sh"
+    ],
+    [
         "安装 安装已经打包完成的 Windows XP 空当接龙（基于 Deepin Wine6 Stable）",
         "com.kongdangjielong.spark_5.1.2600.0_i386.sh"
     ],
