@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 已经打包完成的 WPS 专业版（基于 Deepin Wine6 Stable，适用于 x86_64 机器）",
+        "cn.wps.professional.spark_1.0.0_i386.sh"
+    ],
+    [
         "安装 已经打包完成的 白眼（基于 Deepin Wine6 Stable，适用于 arm64 机器）",
         "org.epcdiy.byakugan_2.5.1.0_arm64.sh"
     ],
