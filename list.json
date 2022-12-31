@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 安装已经打包完成的 三维弹球（基于 Deepin Wine6 Stable）",
+        "spark-pinball_1.1_plus_1_i386.sh"
+    ],
+    [
         "安装 安装已经打包完成的 WPS Picture（基于 Deepin Wine6 Stable）",
         "com.wpspicture.spark_6.0.0spark1_i386.sh"
     ],
