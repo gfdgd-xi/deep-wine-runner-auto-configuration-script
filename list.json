@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 安装已经打包完成的 Windows XP 扫雷（基于 Deepin Wine6 Stable）",
+        "spark-winmine_5.1.2600.0_i386.sh"
+    ],
+    [
         "安装 安装已经打包完成的 Windows 纸牌（基于 Deepin Wine6 Stable）",
         "spark-windows-zhi-pai_5.1.2600.0_i386.sh"
     ],
