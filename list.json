@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "体验 Windows XP 纸牌",
+        "纸牌.sh"
+    ],
+    [
         "体验 Windows XP 蜘蛛纸牌",
         "蜘蛛纸牌.sh"
     ],
