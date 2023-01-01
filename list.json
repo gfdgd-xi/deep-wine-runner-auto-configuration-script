@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 火绒 5.0.72.1",
+        "sysdiag-full-5.0.72.1-2022.12.31.1.sh"
+    ],
+    [
         "安装 ZYH超级记事本",
         "ZYHNoteBook_Setup.sh"
     ],
