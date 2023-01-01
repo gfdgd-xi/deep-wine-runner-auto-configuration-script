@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Microsoft Office XP",
+        "officexp.sh"
+    ],
+    [
         "安装 Microsoft Office 2003 FrontPage",
         "office2003-frontpage.sh"
     ],
