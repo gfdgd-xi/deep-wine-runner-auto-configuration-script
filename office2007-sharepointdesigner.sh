@@ -9,6 +9,7 @@ fi
 echo Power By $MAKER
 echo $COPYRIGHT
 rm -rfv /tmp/microsoft-office-2007-sharepoint-designer.7z
+rm -rfv /tmp/microsoft-office-2007-sharepoint-designer
 download 'https://www.gitlink.org.cn/api/gfdgd_xi/microsoft-office-library-1/raw?filepath=microsoft-office-2007-sharepoint-designer.7z&ref=master' /tmp microsoft-office-2007-sharepoint-designer.7z
 mkdir -p /tmp/office2007
 7z x /tmp/microsoft-office-2007-sharepoint-designer.7z -o/tmp/office2007

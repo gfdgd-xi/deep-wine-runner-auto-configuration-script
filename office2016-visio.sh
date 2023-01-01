@@ -8,6 +8,7 @@ fi
 # 操作
 cd /tmp
 which git > /dev/null
+rm -rfv /tmp/microsoft-office-2016-visio-professional-plus-library
 if [[ $? != 0 ]]; then
     echo 检测到暂无安装 git，现在立即安装
     sudo apt update

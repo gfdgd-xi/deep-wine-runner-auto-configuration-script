@@ -17,6 +17,7 @@ installgecko
 echo 安装 mono
 installmono
 rm -rfv /tmp/office2013.7z
+rm -rfv /tmp/office2013
 download https://code.gitlink.org.cn/gfdgd_xi/microsoft-office-library/raw/branch/master/microsoft-office-2013-professional-plus.7z?gfdgd-xi /tmp office2013.7z
 
 mkdir -p /tmp/office2013

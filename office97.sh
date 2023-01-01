@@ -8,6 +8,7 @@ fi
 # 操作
 echo Power By $MAKER
 echo $COPYRIGHT
+rm -rfv /tmp/office97
 rm -rfv /tmp/office97.7z
 download https://code.gitlink.org.cn/gfdgd_xi/microsoft-office-library/raw/branch/master/microsoft-office-97-professional-plus.7z?gfdgd-xi /tmp office97.7z
 mkdir -p /tmp/office97
