@@ -15,7 +15,7 @@ echo Power By $MAKER
 echo $COPYRIGHT
 rm -rfv /tmp/office2003.7z
 rm -rfv /tmp/office2003
-download https://www.gitlink.org.cn/api/gfdgd-xi-org/office-program-1/raw?filepath=microsoft-office-project-pro-2003.7z&ref=master&gfdgd_xi=gfdgd_xi /tmp office2003.7z
+download https://code.gitlink.org.cn/gfdgd_xi/office-program-1/raw/branch/master/microsoft-office-project-pro-2003.7z?gfdgd_xi=gfdgd_xi /tmp office2003.7z
 mkdir -p /tmp/office2003
 7z x /tmp/office2003.7z -o/tmp/office2003
 bat /tmp/office2003/setup.exe

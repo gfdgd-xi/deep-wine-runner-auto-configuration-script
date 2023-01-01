@@ -15,7 +15,7 @@ echo Power By $MAKER
 echo $COPYRIGHT
 rm -rfv /tmp/officexp.7z
 rm -rfv /tmp/officexp
-download https://www.gitlink.org.cn/api/gfdgd-xi-org/office-program-1/raw?filepath=microsoft-office-professional-xp.7z&ref=master&gfdgd_xi=gfdgd_xi /tmp officexp.7z
+download https://code.gitlink.org.cn/gfdgd_xi/office-program-1/raw/branch/master/microsoft-office-professional-xp.7z?gfdgd_xi=gfdgd_xi /tmp officexp.7z
 mkdir -p /tmp/officexp
 7z x /tmp/officexp.7z -o/tmp/officexp
 bat /tmp/officexp/setup.exe
