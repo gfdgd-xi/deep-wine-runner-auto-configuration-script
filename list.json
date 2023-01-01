@@ -4,7 +4,23 @@
         "help.sh"
     ],
     [
-        "体验 向日葵企业版被控制端 3.5.0.50030",
+        "安装 Microsoft Office 2003 FrontPage",
+        "office2003-frontpage.sh"
+    ],
+    [
+        "安装 Microsoft Office 2003 InfoPage",
+        "office2003-infopage.sh"
+    ],
+    [
+        "安装 Microsoft Office 2003 OneNote",
+        "office2003-onenote.sh"
+    ],
+    [
+        "安装 Microsoft Office 2003 Project Pro",
+        "office2003-project-pro.sh"
+    ],
+    [
+        "安装 向日葵企业版被控制端 3.5.0.50030",
         "SunloginClient_Enterprise_3.5.0.50030.sh"
     ],
     [
