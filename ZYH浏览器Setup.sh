@@ -10,6 +10,10 @@ if [[ 1 == 2 ]]; then
     bash rm "/tmp/ZYH浏览器Setup.exe"
 fi
 rm "/tmp/ZYH浏览器Setup.exe"
+installmono
+installfont 3
+installfont 4
+installfont 5
 download "https://code.gitlink.org.cn/gfdgd_xi/program-library/raw/branch/master/ZYH浏览器Setup.exe?gfdgd_xi=gfdgd_xi" /tmp "ZYH浏览器Setup.exe"
 bat "/tmp/ZYH浏览器Setup.exe"
 info 提示 安装完成！
