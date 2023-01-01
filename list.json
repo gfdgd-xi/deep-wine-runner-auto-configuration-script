@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 TeamViewer Amd64",
+        "TeamViewer_Setup_x64.sh"
+    ],
+    [
         "安装 TeamViewer X86",
         "TeamViewer_Setup.sh"
     ],
