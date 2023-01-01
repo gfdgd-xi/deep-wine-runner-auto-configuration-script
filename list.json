@@ -420,11 +420,11 @@
         "winver.sh"
     ],
     [
-        "获取 Deepin Community Live CD Install 1.6.0——更加定制化的的安装镜像",
+        "获取 Deepin Community Live CD Install 1.7.0——基于20.8的安装镜像，预装星火4.0",
         "dclc-install-get.sh"
     ],
     [
-        "获取 Deepin Community Live CD 1.6.0——更新内核、基于20.7.1",
+        "获取 Deepin Community Live CD 1.7.0——跟进新版Deepin20.8、LinuxQQ",
         "dclc-live-get.sh"
     ],
     [

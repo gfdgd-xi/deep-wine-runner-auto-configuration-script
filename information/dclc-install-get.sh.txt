@@ -1,4 +1,4 @@
-Visit: https://bbs.deepin.org/zh/post/245584
+Visit: https://bbs.deepin.org/post/247643
 <h1 style="box-sizing: border-box; outline: 0px; color: rgba(0, 0, 0, 0.85); margin-bottom: 16px; margin-top: 24px; padding-bottom: 0.3em; border-bottom: 1px solid rgb(234, 236, 239); line-height: 1.25; font-size: 1.75em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Custom Color Emoji&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; white-space: normal; background-color: rgb(255, 255, 255);">
     前言
 </h1>
