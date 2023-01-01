@@ -7,10 +7,10 @@
 # 用于判断是否为 bash 解释器
 if [[ 1 == 2 ]]; then
     # 保持对旧版本的兼容
-    bash rm "/tmp/安装"
+    bash rm "/tmp/扫雷.exe"
 fi
-rm "/tmp/安装"
-download "https://code.gitlink.org.cn/gfdgd_xi/program-library/raw/branch/master/安装?gfdgd_xi=gfdgd_xi" /tmp "安装"
-bat "/tmp/安装"
+rm "/tmp/扫雷.exe"
+download "https://code.gitlink.org.cn/gfdgd_xi/program-library/raw/branch/master/扫雷.exe?gfdgd_xi=gfdgd_xi" /tmp "扫雷.exe"
+bat "/tmp/扫雷.exe"
 info 提示 安装完成！
-rm -rfv "/tmp/安装"
+rm -rfv "/tmp/扫雷.exe"
