@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 ZYH虚拟机",
+        "ZYH虚拟机_Setup.sh"
+    ],
+    [
         "安装 迅雷精简版",
         "ThunderMini1.5.3.288.sh"
     ],
