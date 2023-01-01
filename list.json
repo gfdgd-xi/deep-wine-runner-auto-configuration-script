@@ -4,7 +4,11 @@
         "help.sh"
     ],
     [
-        "安装 ZYH 浏览器",
+        "安装 ZYH 浏览器（易语言版）",
+        "ZYHBroswer_Setup.sh"
+    ],
+    [
+        "安装 ZYH 浏览器（C#重构版）",
         "ZYH浏览器Setup.sh"
     ],
     [
