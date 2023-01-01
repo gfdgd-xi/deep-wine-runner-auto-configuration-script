@@ -4,7 +4,11 @@
         "help.sh"
     ],
     [
-        "安装 TeamViewer QuickSupport",
+        "安装 TeamViewer Host",
+        "TeamViewer_Host_Setup.sh"
+    ],
+    [
+        "体验 TeamViewer QuickSupport",
         "TeamViewerQS.sh"
     ],
     [
