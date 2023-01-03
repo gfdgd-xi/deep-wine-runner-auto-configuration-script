@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 中国移动云盘",
+        "mCloud_Setup-001.sh"
+    ],
+    [
         "安装 PowerISO 8 64位",
         "PowerISO8-x64.sh"
     ],
