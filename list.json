@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 PowerISO 8 32位",
+        "PowerISO8.sh"
+    ],
+    [
         "安装 百度网盘 7.23.0.10",
         "BaiduNetdisk_7.23.0.10.sh"
     ],
