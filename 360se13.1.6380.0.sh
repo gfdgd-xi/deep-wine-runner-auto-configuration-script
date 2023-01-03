@@ -10,6 +10,7 @@ if [[ 1 == 2 ]]; then
     bash rm "/tmp/QQPCDownload320001.exe"
 fi
 rm "/tmp/QQPCDownload320001.exe"
+bat reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
 download "https://down.360safe.com/se/360se13.1.6380.0.exe" /tmp "QQPCDownload320001.exe"
 bat "/tmp/QQPCDownload320001.exe"
 info 提示 安装完成！

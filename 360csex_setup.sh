@@ -7,11 +7,10 @@
 # 用于判断是否为 bash 解释器
 if [[ 1 == 2 ]]; then
     # 保持对旧版本的兼容
-    bash rm "/tmp/360cse_13.5.2036.0.exe"
+    bash rm "/tmp/360csex_setup.exe"
 fi
-rm "/tmp/360cse_13.5.2036.0.exe"
-bat reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
-download "https://down.360safe.com/cse/360cse_13.5.2036.0.exe" /tmp "360cse_13.5.2036.0.exe"
-bat "/tmp/360cse_13.5.2036.0.exe"
+rm "/tmp/360csex_setup.exe"
+download "https://down.360safe.com/cse/360csex_setup.exe" /tmp "360csex_setup.exe"
+bat "/tmp/360csex_setup.exe"
 info 提示 安装完成！
-rm -rfv "/tmp/360cse_13.5.2036.0.exe"
+rm -rfv "/tmp/360csex_setup.exe"
