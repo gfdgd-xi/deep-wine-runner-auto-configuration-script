@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 钉钉",
+        "dingtalk_downloader.sh"
+    ],
+    [
         "安装 Qemu 2022.12.30 64位",
         "qemu-w64-setup-20221230.sh"
     ],
