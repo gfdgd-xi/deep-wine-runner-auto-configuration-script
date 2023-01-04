@@ -4,7 +4,11 @@
         "help.sh"
     ],
     [
-        "安装 360 TOTAL SECURITY（需要wine7及以上版本）",
+        "安装 360 TOTAL SECURITY 在线下载版（需要wine7及以上版本）",
+        "360TS_Setup_Mini.sh"
+    ],
+    [
+        "安装 360 TOTAL SECURITY 10.8.0.1520 离线下载版（需要wine7及以上版本）",
         "360TS_Setup_10.8.0.1520.sh"
     ],
     [
