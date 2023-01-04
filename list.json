@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Python 3.11.1 32位（需要把Wine模拟的Windows版本修改到Windows 8.1或更高）",
+        "python-3.11.1.sh"
+    ],
+    [
         "安装 GPU-Z 2.52.0（需要wine7及以上版本）",
         "GPU-Z.2.52.0.sh"
     ],
