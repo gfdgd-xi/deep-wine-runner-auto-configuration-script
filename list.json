@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 CPU-Z 2.03",
+        "cpu-z_2.03-en.sh"
+    ],
+    [
         "安装 Geeks3D FurMark 1.32.1.0",
         "FurMark_1.32.1.0_Setup.sh"
     ],
