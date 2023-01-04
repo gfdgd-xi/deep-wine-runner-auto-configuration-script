@@ -7,11 +7,10 @@
 # 用于判断是否为 bash 解释器
 if [[ 1 == 2 ]]; then
     # 保持对旧版本的兼容
-    bash rm "/tmp/QQBrowser_Setup_qb11.exe"
+    bash rm "/tmp/WePE64_V2.2.exe"
 fi
-rm "/tmp/QQBrowser_Setup_qb11.exe"
-bat reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
-download "https://dldir1.qq.com/invc/tt/QQBrowser_Setup_qb11.exe" /tmp "QQBrowser_Setup_qb11.exe"
-bat "/tmp/QQBrowser_Setup_qb11.exe"
+rm "/tmp/WePE64_V2.2.exe"
+download "https://mirrors.sdu.edu.cn/software/Windows/WePE/WePE64_V2.2.exe" /tmp "WePE64_V2.2.exe"
+bat "/tmp/WePE64_V2.2.exe"
 info 提示 安装完成！
-rm -rfv "/tmp/QQBrowser_Setup_qb11.exe"
+rm -rfv "/tmp/WePE64_V2.2.exe"
