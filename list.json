@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 360 TOTAL SECURITY（需要wine7及以上版本）",
+        "360TS_Setup_10.8.0.1520.sh"
+    ],
+    [
         "安装 钉钉",
         "dingtalk_downloader.sh"
     ],
