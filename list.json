@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Python 3.8.10 32位（需要把Wine模拟的Windows版本修改到Windows 7或更高）",
+        "python-3.8.10.sh"
+    ],
+    [
         "安装 Python 3.8.10 64位（需要把Wine模拟的Windows版本修改到Windows 7或更高）",
         "python-3.8.10-amd64.sh"
     ],
