@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 QQ浏览器11",
+        "QQBrowser_Setup_qb11.sh"
+    ],
+    [
         "安装 Python 3.4.4 32位（需要把Wine运行器升级到3.1.0或更高版本）",
         "python-3.4.4.sh"
     ],
