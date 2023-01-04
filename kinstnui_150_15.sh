@@ -7,11 +7,10 @@
 # 用于判断是否为 bash 解释器
 if [[ 1 == 2 ]]; then
     # 保持对旧版本的兼容
-    bash rm "/tmp/sogou_explorer_8.5_0221.exe"
+    bash rm "/tmp/kinstnui_150_15.exe"
 fi
-rm "/tmp/sogou_explorer_8.5_0221.exe"
-bat reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
-download "https://dlie.sogoucdn.com/se/sogou_explorer_8.5_0221.exe" /tmp "sogou_explorer_8.5_0221.exe"
-bat "/tmp/sogou_explorer_8.5_0221.exe"
+rm "/tmp/kinstnui_150_15.exe"
+download "https://cd001.www.duba.net/duba/install/packages/ever/kinstnui_150_15.exe" /tmp "kinstnui_150_15.exe"
+bat "/tmp/kinstnui_150_15.exe"
 info 提示 安装完成！
-rm -rfv "/tmp/sogou_explorer_8.5_0221.exe"
+rm -rfv "/tmp/kinstnui_150_15.exe"

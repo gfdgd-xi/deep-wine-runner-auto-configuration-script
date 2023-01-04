@@ -10,6 +10,7 @@ if [[ 1 == 2 ]]; then
     bash rm "/tmp/sogou_explorer_11.0.1.34700_0000.exe"
 fi
 rm "/tmp/sogou_explorer_11.0.1.34700_0000.exe"
+bat reg add 'HKEY_USERS\S-1-5-21-0-0-0-1000\Software\Wine\X11 Driver' /v Decorated /d N /f
 download "https://dlie.sogoucdn.com/se/sogou_explorer_11.0.1.34700_0000.exe" /tmp "sogou_explorer_11.0.1.34700_0000.exe"
 bat "/tmp/sogou_explorer_11.0.1.34700_0000.exe"
 info 提示 安装完成！
