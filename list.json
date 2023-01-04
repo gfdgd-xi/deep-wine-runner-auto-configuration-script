@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Python 3.11.1 64位（需要把Wine模拟的Windows版本修改到Windows 8.1或更高）",
+        "python-3.11.1-amd64.sh"
+    ],
+    [
         "安装 Python 3.11.1 32位（需要把Wine模拟的Windows版本修改到Windows 8.1或更高）",
         "python-3.11.1.sh"
     ],
