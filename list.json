@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 福昕PDF转Word",
+        "foxitxz_FP2WSetup.sh"
+    ],
+    [
         "安装 极速Office 2.0.0.2",
         "jisuoffice_setup_2.0.0.2.sh"
     ],
