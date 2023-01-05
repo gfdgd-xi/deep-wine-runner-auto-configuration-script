@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 LibreOffice 7.4.3 HelpPack zh-CN i386（需要把Wine运行器升级到3.1.0或更高版本）",
+        "LibreOffice_7.4.3_Win_x86_helppack_zh-CN.sh"
+    ],
+    [
         "安装 LibreOffice 7.4.3 HelpPack zh-CN aarch64（需要把Wine运行器升级到3.1.0或更高版本）",
         "LibreOffice_7.4.3_Win_aarch64_helppack_zh-CN.sh"
     ],
