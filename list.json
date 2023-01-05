@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 LibreOffice 7.4.3（需要把Wine运行器升级到3.1.0或更高版本）",
+        "LibreOffice_7.4.3_Win_x64.sh"
+    ],
+    [
         "安装 福昕PDF转Word",
         "foxitxz_FP2WSetup.sh"
     ],
