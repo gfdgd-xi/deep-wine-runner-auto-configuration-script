@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Dev Sidecar 1.7.3",
+        "DevSidecar-1.7.3.sh"
+    ],
+    [
         "安装 OnlyOffice 社区版",
         "onlyoffice-documentserver.sh"
     ],
