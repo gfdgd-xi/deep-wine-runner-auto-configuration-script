@@ -4,7 +4,11 @@
         "help.sh"
     ],
     [
-        "安装 LibreOffice 7.4.3（需要把Wine运行器升级到3.1.0或更高版本）",
+        "安装 LibreOffice 7.4.3 I386（需要把Wine运行器升级到3.1.0或更高版本）",
+        "LibreOffice_7.4.3_Win_x86.sh"
+    ],
+    [
+        "安装 LibreOffice 7.4.3 amd64（需要把Wine运行器升级到3.1.0或更高版本）",
         "LibreOffice_7.4.3_Win_x64.sh"
     ],
     [
