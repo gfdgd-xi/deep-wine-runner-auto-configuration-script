@@ -4,7 +4,11 @@
         "help.sh"
     ],
     [
-        "安装 永中Office 9.0.2445.131（需要把Wine运行器升级到3.1.0或更高版本）",
+        "安装 OnlyOffice 社区版",
+        "onlyoffice-documentserver.sh"
+    ],
+    [
+        "安装 永中Office 9.0.2445.131",
         "9.0.2445.131ZH(1480)_C.sh"
     ],
     [
