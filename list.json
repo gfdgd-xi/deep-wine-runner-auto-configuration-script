@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "双核浏览器（需要wine7及以上版本）",
+        "ChromeCore_1189_6.1.1.12.sh"
+    ],
+    [
         "安装 Dev Sidecar 1.7.3",
         "DevSidecar-1.7.3.sh"
     ],
