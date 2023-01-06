@@ -4,22 +4,6 @@
         "help.sh"
     ],
     [
-        "安装 2345 浏览器标准推广包",
-        "p14_k3025613752_bqMHTzbdNCe6QGmrju_v23.1.1.sh"
-    ],
-    [
-        "安装 2345 浏览器纯净版推广包",
-        "p13_k3025613752_eCrhT54f3OHttrXShYiJoCTd020bapmy_v23.1.1.sh"
-    ],
-    [
-        "安装小鸟壁纸",
-        "birdpaper_bird.sh"
-    ],
-    [
-        "安装 双核浏览器6.1.1.12（需要wine7及以上版本）",
-        "ChromeCore_1189_6.1.1.12.sh"
-    ],
-    [
         "安装 Dev Sidecar 1.7.3",
         "DevSidecar-1.7.3.sh"
     ],
@@ -94,6 +78,22 @@
     [
         "安装 Foxmail 7.2.25",
         "FoxmailSetup_7.2.25.179.sh"
+    ],
+    [
+        "安装 2345 浏览器标准推广包",
+        "p14_k3025613752_bqMHTzbdNCe6QGmrju_v23.1.1.sh"
+    ],
+    [
+        "安装 2345 浏览器纯净版推广包",
+        "p13_k3025613752_eCrhT54f3OHttrXShYiJoCTd020bapmy_v23.1.1.sh"
+    ],
+    [
+        "安装小鸟壁纸",
+        "birdpaper_bird.sh"
+    ],
+    [
+        "安装 双核浏览器6.1.1.12（需要wine7及以上版本）",
+        "ChromeCore_1189_6.1.1.12.sh"
     ],
     [
         "安装 金山毒霸20190225",
