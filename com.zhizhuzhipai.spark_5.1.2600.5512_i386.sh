@@ -19,8 +19,15 @@ else
     error 错误 文件下载失败！
     exit
 fi
-pkexec apt install "/tmp/com.zhizhuzhipai.spark_5.1.2600.5512_i386.deb" -y
+which aptss > /dev/null
 if [[ $? == 0 ]]; then
+    pkexec aptss install "/tmp/com.zhizhuzhipai.spark_5.1.2600.5512_i386.deb" -y
+    result=$?
+else
+    pkexec apt install "/tmp/com.zhizhuzhipai.spark_5.1.2600.5512_i386.deb" -y
+    result=$?
+fi
+if [[ $result == 0 ]]; then
     info 提示 安装成功！
 else
     error 错误 安装失败！
