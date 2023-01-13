@@ -862,9 +862,5 @@
     [
         "添加作者 apt 源",
         "gfdgd-xi-sources.sh"
-    ],
-    [
-        "移除曾经有盗版 Wine 运行器的 超级 Wine 和 exepro",
-        "purgeexepro.sh"
     ]
 ]
