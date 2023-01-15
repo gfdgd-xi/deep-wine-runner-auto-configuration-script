@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 白眼",
+        "app-release.sh"
+    ],
+    [
         "安装 Bochs 2.7",
         "Bochs-win64-2.7.sh"
     ],
