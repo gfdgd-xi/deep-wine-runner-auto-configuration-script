@@ -4,10 +4,6 @@
         "help.sh"
     ],
     [
-        "安装 白眼",
-        "app-release.sh"
-    ],
-    [
         "安装 Bochs 2.7",
         "Bochs-win64-2.7.sh"
     ],
@@ -361,7 +357,7 @@
     ],
     [
         "安装 Scratch 3.29.1",
-        "Scratch 3.29.1 Setup.sh"
+        "scratch3.0.sh"
     ],
     [
         "安装 Scratch 1.4",
