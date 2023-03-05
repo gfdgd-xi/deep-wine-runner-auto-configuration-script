@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 音乐湖 PC 端 1.3.1",
+        "player-1.3.1-win.sh"
+    ],
+    [
         "安装 Bochs 2.7",
         "Bochs-win64-2.7.sh"
     ],
