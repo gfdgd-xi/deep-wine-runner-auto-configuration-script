@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "运行 Geek Uninstaller",
+        "geek.sh"
+    ],
+    [
         "安装 Notepad-- 2.0.0",
         "Notepad--v2.0.0-Installer.sh"
     ],
