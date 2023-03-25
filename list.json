@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "运行 窗口透明度 1.1",
+        "窗体透明度设置工具.sh"
+    ],
+    [
         "运行 BeCyIconGrabber 2.30",
         "BeCyIconGrabber.sh"
     ],
