@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "运行 BeCyIconGrabber 2.30",
+        "BeCyIconGrabber.sh"
+    ],
+    [
         "安装公测版 QQ 9.8.0.11111",
         "QQ9.8.0.11111.sh"
     ],
