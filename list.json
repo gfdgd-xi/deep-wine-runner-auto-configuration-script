@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装鲁大师 6.1023.3580.404",
+        "ludashi.sh"
+    ],
+    [
         "安装 安兔兔 Windows 公测版 1.0",
         "AntutuBenchmark_Setup.sh"
     ],
