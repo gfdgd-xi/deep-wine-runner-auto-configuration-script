@@ -649,7 +649,7 @@ Visit: https://gfdgd-xi.github.io/wine-runner-wiki/
 <p style="box-sizing: inherit;margin-top: 15px;margin-bottom: 15px;line-height: 1.4285em;overflow-wrap: break-word;color: rgb(51, 51, 51);font-family: Lato, &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;font-size: 14px;white-space: normal;background-color: rgb(255, 255, 255)">
     如果不指定脚本路径，会进入如下的交互环境
 </p>
-<pre style="box-sizing: inherit;overflow: auto;font-family: monospace, monospace;font-size: 13px;margin-bottom: 15px;border: 1px solid rgb(204, 204, 204);line-height: 19px;padding: 6px 10px;margin-top: 0px !important">gfdgd_xi@gfdgdxi-PC:~$ /opt/apps/deepin-wine-runner/AutoShell/main.py   Wine 运行器自动配置文件解析器交互环境（基于 Bash） 版本：2.3.0 ©2020~2022 gfdgd xi、为什么您不喜欢熊出没和阿布呢 -------------------------------------------------------------- gfdgd_xi@gfdgdxi-PC:~$</pre>
+<pre style="box-sizing: inherit;overflow: auto;font-family: monospace, monospace;font-size: 13px;margin-bottom: 15px;border: 1px solid rgb(204, 204, 204);line-height: 19px;padding: 6px 10px;margin-top: 0px !important">gfdgd_xi@gfdgdxi-PC:~$ /opt/apps/deepin-wine-runner/AutoShell/main.py   Wine 运行器自动配置文件解析器交互环境（基于 Bash） 版本：2.3.0 ©2020~2022 gfdgd xi -------------------------------------------------------------- gfdgd_xi@gfdgdxi-PC:~$</pre>
 <p style="box-sizing: inherit;margin-top: 15px;margin-bottom: 15px;line-height: 1.4285em;overflow-wrap: break-word;color: rgb(51, 51, 51);font-family: Lato, &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;font-size: 14px;white-space: normal;background-color: rgb(255, 255, 255)">
     在此环境输入命令进行测试即可
 </p>
@@ -783,7 +783,7 @@ Visit: https://gfdgd-xi.github.io/wine-runner-wiki/
     </li>
 </ol>
 <h1 style="box-sizing: inherit;font-family: Lato, &#39;Helvetica Neue&#39;, Arial, Helvetica, sans-serif;line-height: 1.28571em;margin-top: 20px;margin-right: 0px;margin-left: 0px;padding: 0px;min-height: 1rem;font-size: 30px;-webkit-font-smoothing: antialiased;cursor: text;position: relative;white-space: normal;background-color: rgb(255, 255, 255);margin-bottom: 0px !important">
-    <a href="https://gfdgd-xi.github.io/wine-runner-wiki/#2020now-gfdgd-xi%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%86%8A%E5%87%BA%E6%B2%A1%E5%92%8C%E9%98%BF%E5%B8%83%E5%91%A2" style="box-sizing: inherit;background: url(&#39;/assets/pin-20.png&#39;) left center no-repeat;color: rgb(65, 131, 196);display: block;padding-left: 25px;cursor: pointer;position: absolute;top: 0px;left: 0px;bottom: 0px;margin-top: 0px !important;margin-bottom: 0px !important"></a>©2020~Now gfdgd xi、为什么您不喜欢熊出没和阿布呢
+    <a href="https://gfdgd-xi.github.io/wine-runner-wiki/#2020now-gfdgd-xi%E4%B8%BA%E4%BB%80%E4%B9%88%E6%82%A8%E4%B8%8D%E5%96%9C%E6%AC%A2%E7%86%8A%E5%87%BA%E6%B2%A1%E5%92%8C%E9%98%BF%E5%B8%83%E5%91%A2" style="box-sizing: inherit;background: url(&#39;/assets/pin-20.png&#39;) left center no-repeat;color: rgb(65, 131, 196);display: block;padding-left: 25px;cursor: pointer;position: absolute;top: 0px;left: 0px;bottom: 0px;margin-top: 0px !important;margin-bottom: 0px !important"></a>©2020~Now gfdgd xi
 </h1>
 <p>
     <br/>
