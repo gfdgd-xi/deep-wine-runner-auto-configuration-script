@@ -4,6 +4,10 @@
         "help.sh"
     ],
     [
+        "安装 Qemu 20230424",
+        "qemu-w64-setup-20230424.sh"
+    ],
+    [
         "安装 Qemu Manager 6.0",
         "3610_QemuManager_6.0.sh"
     ],
